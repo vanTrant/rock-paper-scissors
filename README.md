@@ -1,6 +1,7 @@
 # Rock Paper Scissors
 
-Rock Paper Scissors game built with HTML/CSS, and JavaScript.
+Rock Paper Scissors game built with HTML/CSS, and JavaScript.<br />
+You can preview the page [here](https://vantrant.github.io/rock-paper-scissors/)
 
 ## Version History
 
