@@ -111,6 +111,14 @@ header {
     cursor: pointer;
 }
 
+.btn-container:focus {
+    outline: none !important;
+}
+
+.choice:focus {
+    outline: none !important;
+}
+
 .reset-container {
     display: flex;
     justify-content: center;
@@ -259,6 +267,10 @@ footer {
 
     .choice {
         margin: auto 10px;
+    }
+
+    .choice:hover {
+        cursor: default;
     }
 
     .result-preview {
