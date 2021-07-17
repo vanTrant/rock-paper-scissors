@@ -133,6 +133,7 @@ header {
     border-radius: 6px;
     font-size: 18px;
     transition: 200ms ease;
+    outline: none;
 }
 
 .reset-button:hover {
@@ -288,5 +289,9 @@ footer {
 
     .score-border {
         width: 150px;
+    }
+
+    .reset-button {
+        cursor: default;
     }
 }
