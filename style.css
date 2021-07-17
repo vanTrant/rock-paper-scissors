@@ -291,7 +291,7 @@ footer {
         width: 150px;
     }
 
-    .reset-button {
+    .reset-button:focus {
         cursor: default;
     }
 }
