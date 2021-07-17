@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-container">
+        <img id="player-result" class="result-preview choice-img" src="./assets/rock.png" alt="player choice">
+        <div class="score-border">
+            <div id="player-text" class="name"><p id="player-nickname">You</p></div>
+            <div id="computer-text" class="name"><p>Com</p></div>
+            <div class="score-board">
+                <span class="player-score">0</span> : <span class="computer-score">0</span>
+            </div>
+        </div>
+        <img id="computer-result" class="result-preview choice-img" src="./assets/rock.png" alt="computer choice">
+    </div>
+    <h2 class="winner-text">Start your move</h2>
+    <div class="btn-container">
+        <button id="rock" class="choice"><img class="choice-img" src="./assets/rock.png" alt="rock"></button>
+        <button id="paper" class="choice"><img class="choice-img" src="./assets/paper.png" alt="paper"></button>
+        <button id="scissors" class="choice"><img class="choice-img" src="./assets/scissors.png" alt="scissors"></button>
+    </div>
+    <p class="action-text">The first to get scores of 5 is the winner</p>
+    <div class="reset-container"></div>
+    <section class="start-window">
+        <div class="box-window">
+            <div class="box-content">
+                <h4>Welcome to Rock Paper and Scissors game!</h4>
+                <div class="input-field">
+                    <label for="player-name">Enter your nickname: </label>
+                    <input id="player-name" type="text" maxlength="4ch" placeholder="(Max 4 character)" autocomplete="off">
+                    <button id="submit-button" class="submit-button" type="submit">Submit</button>
+                </div>
+                <button class="close-button submit-button">
+                    <span class="material-icons">
+                        close
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>2021 vanTrant</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
