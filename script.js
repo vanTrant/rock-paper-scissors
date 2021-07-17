@@ -117,6 +117,7 @@ function resetScore() {
     playerScore_span.innerHTML = 0;
     computerScore_span.innerHTML = 0;
     finalResult_p.innerHTML = 'The first to get scores of 5 is the winner'
+    winner_h2.innerHTML = 'Start your move';
     playerHand('rock', 'rock');
     resetClick();
 }
