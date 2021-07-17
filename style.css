@@ -293,5 +293,17 @@ footer {
 
     .reset-button:focus {
         cursor: default;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    }
+
+    .reset-container {
+        cursor: default;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
     }
 }
